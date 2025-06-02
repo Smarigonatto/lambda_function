@@ -30,6 +30,31 @@ Antes de utilizar esse código, certifique-se de:
 
 ---
 
+## 📤 Saída Esperada
+A função retorna um JSON com o status da execução e os detalhes dos arquivos processados:
+
+✅ Exemplo de saída bem-sucedida:
+
+```python
+{
+  "status": "finalizado",
+  "detalhes": [
+    "Imagem nome-da-imagem.jpg redimensionada e salva como resized-nome-da-imagem.jpg"
+  ]
+}
+```
+
+❌ Se ocorrer algum erro:
+
+```python
+{
+  "status": "finalizado",
+  "detalhes": [
+    "Erro ao processar nome-da-imagem.jpg: mensagem-de-erro"
+  ]
+}
+```
+
 ## 🔧 Estrutura do Código
 
 ```python

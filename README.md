@@ -97,6 +97,7 @@ if __name__ == "__main__":
     }
     resultado = lambda_handler(test_event, None)
     print("Resultado:", resultado)
+```
 
 ⚠️ Considerações de Segurança
 IAM Role: Evite credenciais hardcoded, utilize permissões IAM seguras.

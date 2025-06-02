@@ -79,10 +79,14 @@ def lambda_handler(event, context):
         "status": "finalizado",
         "detalhes": logs
     }
+
+
+```
+
 🧪 Testes Locais
 Para testar fora da AWS, utilize o seguinte código:
 
-python
+```python
 if __name__ == "__main__":
     test_event = {
         "Records": [

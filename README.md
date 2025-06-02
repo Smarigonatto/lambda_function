@@ -10,7 +10,13 @@ Essa função **AWS Lambda** processa imagens enviadas para um **bucket S3**, re
 - **Amazon S3** - Armazenamento de objetos
 - **Boto3** - SDK para AWS em Python
 - **Pillow (PIL)** - Processamento de imagens
-- **Logging** - Rastreamento de execução
+- **Logging** - Rastreamento de execução´
+
+✅ Instalação local (para testes):
+
+```python
+pip install boto3 Pillow
+```
 
 ---
 
